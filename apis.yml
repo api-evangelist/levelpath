@@ -1,8 +1,32 @@
 aid: levelpath
 name: Levelpath
-description: Levelpath is a company surfaced as a portfolio company of battery-ventures, menlo-ventures,
-  redpoint-ventures and added to the API Evangelist network as a stub for enrichment. This profile is
-  a lead awaiting the enrichment pipeline.
+description: >-
+  Levelpath is an AI-native procurement platform that unifies intake and
+  orchestration, strategic sourcing, contract lifecycle management, supplier
+  management, third-party risk management, invoice automation, and category
+  pipeline reporting into a single enterprise system. The product is built around
+  AI agents that run sourcing events and generate RFPs, scan contract
+  repositories to answer questions and flag risk, monitor supplier compliance
+  signals, and process invoices. Levelpath is a closed enterprise platform: it
+  operates customer and supplier applications at app.levelpath.com and
+  supplierhub.levelpath.com, and its status page confirms a production APIs
+  component, but it publishes no public developer portal, API reference, OpenAPI
+  definition, or SDKs. Integrations with SAP, Ariba, Coupa, Oracle, NetSuite,
+  Docusign, Ironclad, OneTrust, Slack, and Microsoft Teams are delivered through
+  the platform rather than a documented public API. Backed by Battery Ventures,
+  Menlo Ventures, and Redpoint Ventures.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/693fed8e6d73ae4adab35953/6a06494936453085324d7404_Delightful%20Procurement.%20Serious%20Impact..png
 url: https://raw.githubusercontent.com/api-evangelist/levelpath/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +34,23 @@ x-backed-by:
 - battery-ventures
 - menlo-ventures
 - redpoint-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Procurement
+- Source to Pay
+- Spend Management
+- Contract Management
+- Supplier Management
+- Strategic Sourcing
+- Risk Management
+- Invoice Automation
+- Artificial Intelligence
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +59,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://levelpath.com
+  url: https://www.levelpath.com
+- type: Blog
+  url: https://www.levelpath.com/blog
+- type: Support
+  url: https://www.levelpath.com/contact-us
+- type: Login
+  url: https://app.levelpath.com/login
+- type: TermsOfService
+  url: https://www.levelpath.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.levelpath.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/levelpath
+- type: StatusPage
+  url: https://status.levelpath.com
+- type: Compliance
+  url: https://trust.levelpath.com/
+- type: LLMsTxt
+  url: llms/levelpath-llms.txt
+- type: Lifecycle
+  url: lifecycle/levelpath-lifecycle.yml
+- type: Conformance
+  url: conformance/levelpath-conformance.yml
+- type: TrustCenter
+  url: security/levelpath-trust-center.yml
+- type: DomainSecurity
+  url: security/levelpath-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
