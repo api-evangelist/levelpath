@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.levelpath.com/api/v2/summary.json
+notes: >-
+  Levelpath does not publish a public developer program, so there is no public
+  versioning policy, deprecation policy, SLA document, or changelog to capture.
+  The one real, machine-readable operational surface the company publishes is an
+  Atlassian Statuspage, which enumerates the platform components — including a
+  dedicated "APIs" component confirming an API surface exists behind the
+  customer login.
+versioning:
+  scheme: null
+  current: null
+  docs: null
+  evidence: no public API reference or versioning policy published
+deprecation:
+  policy_url: null
+  sunset_header: null
+  evidence: no public deprecation or sunset policy published
+sla:
+  url: null
+  uptime_target: null
+  evidence: SLA is contractual/enterprise; not published publicly
+status_page: https://status.levelpath.com
+status_page_platform: Atlassian Statuspage
+status_page_api: https://status.levelpath.com/api/v2/summary.json
+status_page_feed: https://status.levelpath.com/history.atom
+components:
+- name: Levelpath Web App
+- name: Projects & Hub
+- name: Sourcing
+- name: Contracts
+- name: Risk
+- name: Invoice
+- name: Supplier Hub
+- name: AI Services
+- name: APIs
+deprecated_operations: []

@@ -1,0 +1,46 @@
+# Levelpath
+
+> Levelpath unifies intake, contracts, supplier management, and strategic sourcing with native AI. It is a procurement platform designed to cut cycle times, secure savings, and provide visibility for enterprise teams.
+
+## Core Product
+- Levelpath Platform: https://www.levelpath.com/platform - Overview of the unified procurement platform and AI capabilities.
+- AI Agents: https://www.levelpath.com/agents - Specialized AI agents for contract discovery, negotiations, and sourcing.
+- Front Door to Procure: https://www.levelpath.com/products/front-door-to-procure - Simplified intake process for employees to request purchases.
+- Strategic Sourcing: https://www.levelpath.com/products/sourcing - Tools for RFP management, supplier selection, and negotiation.
+- Contracts: https://www.levelpath.com/products/contracts - Repository and lifecycle management for supplier agreements.
+- Risk Management: https://www.levelpath.com/products/risk - Third-party risk management (TPRM) and supplier due diligence.
+- Invoice Automation: https://www.levelpath.com/products/invoice-automation - Automated invoice processing and payment workflows.
+- Pipeline: https://www.levelpath.com/products/pipeline - Project tracking, reporting, and procurement analytics.
+
+## Solutions by Persona
+- For Procurement: https://www.levelpath.com/solutions/procurement - Workflow automation and spend management.
+- For Finance: https://www.levelpath.com/solutions/finance - Budget visibility, savings tracking, and invoice management.
+- For Legal: https://www.levelpath.com/solutions/legal - Contract governance and compliance workflows.
+- For IT and Security: https://www.levelpath.com/solutions/it-security - Compliance, risk management, and software implementation.
+- For Suppliers: https://www.levelpath.com/solutions/suppliers - Supplier portal and onboarding.
+
+## Competitive Comparisons
+- Levelpath vs. Zip: https://www.levelpath.com/landing-pages/levelpath-vs-zip - Detailed comparison of features and AI capabilities.
+- Levelpath vs. Omnea: https://www.levelpath.com/landing-pages/levelpath-vs-omnea - Key differentiators in procurement orchestration.
+- Levelpath vs. Oro Labs: https://www.levelpath.com/landing-pages/levelpath-vs-oro-labs - Comparison of workflow and customization options.
+
+## Trust, Security & Architecture
+- Security Portal: https://www.levelpath.com/security - Overview of security standards and compliance.
+- AI Governance: https://www.levelpath.com/tech-brief/ai-governance-for-procurement - Framework for enterprise AI safety and governance.
+- Data Architecture: https://www.levelpath.com/tech-brief/data-architecture - Technical brief on Levelpath's data handling and infrastructure.
+
+## Analyst Validation
+- Gartner Innovation Insight 2025: https://www.levelpath.com/analyst-report/gartner-innovation-insight-procurement-orchestration-platforms-2025 - Report on Procurement Orchestration Platforms.
+- IDC Value of AI-Native Procurement: https://www.levelpath.com/analyst-report/idc-value-of-ai-native-procurement-platforms - Analysis of ROI from AI-native platforms.
+
+## Customer Evidence
+- Ace Hardware Case Study: https://www.levelpath.com/customer-story/ace-hardware-cuts-through-the-procurement-noise-with-levelpath
+- SiriusXM Case Study: https://www.levelpath.com/customer-story/siriusxm-reduces-procurement-lead-times-with-levelpath
+- Zendesk Case Study: https://www.levelpath.com/customer-story/procurement-made-simple-zendesks-journey-to-visibility-and-value
+
+## Company & Updates
+- About Levelpath: https://www.levelpath.com/about - Company mission, leadership, and vision.
+- Newsroom: https://www.levelpath.com/newsroom - Latest press releases and announcements.
+- Resources Hub: https://www.levelpath.com/resources - Full library of guides, whitepapers, and articles.
+- Contact Us: https://www.levelpath.com/contact-us - Sales inquiries and support.
+```

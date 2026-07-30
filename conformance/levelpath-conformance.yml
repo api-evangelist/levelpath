@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.levelpath.com/
+notes: >-
+  Levelpath publishes no OpenAPI, no public API reference, and no developer
+  portal, so no API-level standards conformance (OAuth2/OIDC, RFC 9457, pagination,
+  idempotency) can be derived or verified. The one conformance claim the company
+  publishes is its security/compliance posture on the Vanta-hosted trust center.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: >-
+    trust.levelpath.com states "SOC 2 Type II certification" and "we have
+    implemented rigorous security controls, industry-standard encryption, and
+    robust privacy practices"
+  source: https://trust.levelpath.com/
+- id: aes-256-at-rest
+  conforms: true
+  evidence: >-
+    levelpath.com/security states "Data at rest is encrypted with an industry
+    standard AES 256 encryption algorithm."
+  source: https://www.levelpath.com/security
+- id: oauth2
+  conforms: null
+  evidence: no public OpenAPI or auth documentation to verify
+- id: oidc
+  conforms: null
+  evidence: no /.well-known/openid-configuration published
+- id: rfc9457-problem-details
+  conforms: null
+  evidence: no public OpenAPI to inspect
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on www.levelpath.com
+compliance_program:
+  url: https://trust.levelpath.com/
+  platform: Vanta
+  certifications:
+  - SOC 2 Type II

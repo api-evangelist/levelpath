@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of Levelpath hosts
+notes: >-
+  No /.well-known/ discovery documents are published. Probed both the marketing
+  host (www.levelpath.com) and the application host (app.levelpath.com).
+  app.levelpath.com is a single-page application that serves its index.html with
+  HTTP 200 for every unmatched path, so all /.well-known/ requests there return a
+  soft-404 (HTML login shell, not a discovery document) — verified against a
+  control path (/.well-known/totally-fake-xyz) which returned the identical HTML.
+  Recorded as not-found. Absence is a valid, expected result.
+hosts:
+- host: https://www.levelpath.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.levelpath.com
+  spa_catch_all: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: soft-404 (SPA index.html)
+  - path: /.well-known/openid-configuration
+    status: 200
+    result: soft-404 (SPA index.html)
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    result: soft-404 (SPA index.html)
+  - path: /.well-known/api-catalog
+    status: 200
+    result: soft-404 (SPA index.html)
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    result: soft-404 (SPA index.html)
+documents_found: 0

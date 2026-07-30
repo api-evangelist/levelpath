@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.levelpath.com/
+url: https://trust.levelpath.com/
+platform: Vanta
+certifications:
+- SOC 2 Type II
+statement: >-
+  "From Zero Data Retention for AI features to comprehensive access management
+  and SOC 2 Type II certification, Levelpath is dedicated to maintaining the
+  confidentiality, integrity, and availability of your data."
+security_page: https://www.levelpath.com/security
+security_page_highlights:
+- Data at rest encrypted with AES-256
+- Risk-based vendor security review program
+- Mobile device management, anti-malware, 24/7/365 security alert monitoring
+- Security training at onboarding and annually
+- Zero Data Retention for AI features
+vulnerability_disclosure: null
+vulnerability_disclosure_evidence: >-
+  No /.well-known/security.txt, no responsible-disclosure or bug-bounty page
+  found on levelpath.com; probe-security-programs.py returned vdp=none.
+evidence:
+- source: https://trust.levelpath.com/
+  keywords:
+  - soc 2 type ii
+  - trust center
+  - zero data retention
+- source: https://www.levelpath.com/security
+  keywords:
+  - aes 256
+  - vendor security
