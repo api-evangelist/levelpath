@@ -64,31 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Levelpath is an AI-native procurement platform that unifies intake and orchestration, strategic sourcing, contract lifecycle management, supplier management, third-party risk management, invoice automation, and category pipeline reporting into a single enterprise system. The product is built around AI agents that run sourcing events and generate RFPs, scan contract repositories to answer questions and flag risk, monitor supplier compliance signals, and process invoices.
+Levelpath is an AI-native procurement platform that unifies intake and orchestration, strategic sourcing, contract lifecycle management, supplier management, third-party risk management, invoice automation, and category pipeline reporting into a single enterprise system. The product is built around AI agents that run sourcing events and generate RFPs, scan contract repositories to answer questions and flag risk, monitor supplier compliance signals, and process invoices. Levelpath is a closed enterprise platform: it operates customer and supplier applications at app.levelpath.com and supplierhub.levelpath.com, and its status page confirms a production APIs component, but it publishes no public developer portal, API reference, OpenAPI definition, or SDKs. Integrations with SAP, Ariba, Coupa, Oracle, NetSuite, Docusign, Ironclad, OneTrust, Slack, and Microsoft Teams are delivered through the platform rather than a documented public API. Backed by Battery Ventures, Menlo Ventures, and Redpoint Ventures.
 
-Backed by Battery Ventures, Menlo Ventures, and Redpoint Ventures — https://www.levelpath.com
+**Areas:** Company · Procurement · Source-to-Pay · Spend Management · Contract Management · Supplier Management · Strategic Sourcing · Risk Management · Invoice Automation · Artificial Intelligence · Enterprise Software
 
-## API posture
+## Levelpath on APIs.io
 
-Levelpath is a **closed enterprise platform with no public developer program**. As of the 2026-07-19 enrichment pass:
+Everything profiled for Levelpath is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/levelpath/](https://apis.io/providers/levelpath/)** — or go straight to one of the APIs or properties below.
 
-- No developer portal, API reference, getting-started guide, OpenAPI/Swagger definition, GraphQL schema, or AsyncAPI document is published.
-- No first-party SDKs or CLI on npm, PyPI, or any other public registry.
-- No public pricing, changelog, roadmap, or webhook documentation.
-- No `/.well-known/` discovery documents. `app.levelpath.com` is an SPA that returns its `index.html` with HTTP 200 for every unmatched path, so `/.well-known/*` there are soft-404s, not documents.
-- No `security.txt`, responsible-disclosure page, or bug bounty program.
-- `api.levelpath.com` resolves but returns HTTP 403 — an API surface exists, gated.
-- The Atlassian Statuspage lists a dedicated **APIs** component, confirming a production API behind the customer login.
+### Published properties
 
-Integrations (SAP, Ariba, Coupa, Oracle, NetSuite, Docusign, Ironclad, OneTrust, Slack, Microsoft Teams) are delivered through the platform rather than a documented public API.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (2)
 
-| Artifact | Method | Notes |
-|---|---|---|
-| `llms/levelpath-llms.txt` | searched | Real `llms.txt` published at `levelpath.com/llms.txt`, saved verbatim |
-| `lifecycle/levelpath-lifecycle.yml` | searched | Atlassian Statuspage + 9 components, incl. an APIs component |
-| `conformance/levelpath-conformance.yml` | searched | SOC 2 Type II, AES-256 at rest; API-level standards unverifiable |
-| `security/levelpath-trust-center.yml` | searched | Vanta-hosted trust center, SOC 2 Type II, Zero Data Retention for AI |
-| `security/levelpath-domain-security.yml` | probed | TLS 1.3, no HSTS, no DNSSEC, no CAA, SPF + DMARC (p=quarantine) |
-| `well-known/levelpath-well-known.yml` | searched | Negative result — no discovery documents published |
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Levelpath Domain Security](https://apis.io/security/levelpath/levelpath-domain-security/)
+- [Levelpath Trust Center](https://apis.io/security/levelpath/levelpath-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.levelpath.com)
+- [Support](https://www.levelpath.com/contact-us)
+- [Blog](https://www.levelpath.com/blog)
+- [Compliance](https://trust.levelpath.com/)
+- [Terms of service](https://www.levelpath.com/terms-of-service)
+- [Privacy policy](https://www.levelpath.com/privacy-policy)
+- [GitHub](https://github.com/levelpath)
+- [Status](https://status.levelpath.com)
+
+## API Evangelist rating
+
+**Kin Score 21.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/levelpath/](https://apis.io/providers/levelpath/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Levelpath: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/levelpath/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
